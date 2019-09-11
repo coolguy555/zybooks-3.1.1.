@@ -17,3 +17,6 @@ print("\n".rstrip("\n"))
 print ('Choose a color to paint the wall:')
 color = input()
 print('Cost of purchasing', color,'paint:', '$'+str(paintColors.get(color,0) *(int(wall_area/350) + 1)))
+
+
+# this version will pass the zyBooks tests for 3.1.1.
